@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>My Portfolio</title>
   </head>
   <body>
@@ -11,6 +11,13 @@
       <h1>Kyle Sunman</h1>
       <p>Web Developer & Designer</p>
     </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">My Work</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
     <div class="container">
       <div class="profile">
         <img src="./images/profileavatar.jpg" alt="Ai generated photo of me as a simpson" />
@@ -18,12 +25,12 @@
         <p>Web Developer & Designer</p>
       </div>
       <div class="description">
-        <p>
+        <p class="aboutme-text" class="about-card">
           Welcome to my portfolio! I'm passionate about creating beautiful and
           functional websites.
         </p>
       </div>
-      <h2>Portfolio</h2>
+      <h2 id="work">Portfolio</h2>
       <div class="portfolio">
         <div class="project">
           <img src="project1.jpg" alt="Project 1" />
@@ -42,8 +49,42 @@
         </div>
       </div>
     </div>
+    <div class="container">
+      <div class="about-card">
+        <h2 class="aboutme-text" id="about">About Me</h2>
+        <p>
+          
+          Hello, I'm Kyle Sunman! While I might be new to the world of coding, I'm already captivated by the possibilities it holds. In just a few short weeks, I've dived into the exciting world of web development, intrigued by the power of code to create digital wonders. As I take my first steps in this journey, I'm constantly amazed by the progress I'm making and the skills I'm acquiring.
+          
+          Beyond the screen, I'm a proud parent to two wonderful dogs, Rusty and Shadow, and an adorable daughter named Kyah. Balancing the world of coding with the joys of family life keeps me motivated and grounded. As I guide my daughter through life's adventures, I'm also embarking on my own exploration of the vast coding landscape.
+          
+          When I'm not busy coding or spending quality time with my family, you can find me indulging in another passion of mine, playing video games. Whether it's exploring virtual worlds, solving intricate puzzles, or engaging in epic battles, gaming is my escape and a way to unwind.
+          
+          I'm excited to see where this coding journey takes me and how I can combine my newfound skills with my unique experiences. With every line of code I write, I'm not only shaping digital experiences but also creating a legacy for my daughter to be proud of.
+          
+          Thank you for stopping by, and feel free to join me on this exciting path of discovery!</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="about-card">
+        <h2 class="aboutme-text" id="contact">Contact Me</h2>
+        <a class="contact-box" href="https://github.com/kylesunman">
+          <h3>Github</h3>
+
+        </a>
+        <a class="contact-box" href="mailto:kylesunman123@gmail.com">
+          <h3>Email</h3>
+
+        </a>
+      </div>
+    </div>
+
+
+
+
+    </div>
     <footer>
-      <p>&copy; 2023 Your Name. All rights reserved.</p>
+      <p></p>
     </footer>
   </body>
 </html>
